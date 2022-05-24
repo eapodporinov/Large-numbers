@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Large numbers</title>
+
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <div id="radios">
+    <input type="radio" class="option-input radio" name="bits-count" value="8">8-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="16">16-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="32">32-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="64">64-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="128">128-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="256">256-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="512">512-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="1024">1024-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="2048">2048-бит<br/>
+    <input type="radio" class="option-input radio" name="bits-count" value="4096">4096-бит<br/>
+  </div>
+  
+  <div id="buttons">
+    <button id="max-keys-count-button" class="btn third" disabled>Количество вариантов ключей</button><br/>
+    <output id="max-keys-count-output" class="out first"></output><br/>
+    <button id="random-key-button" class="btn third" disabled>Случайный ключ</button><br/>
+    <output id="random-key-output" class="out"></output><br/>
+    <button id="brute-force-button" class="btn third" disabled>Брутфорс</button><br/>
+    <output id="brute-force-output" class="out small"></output><br/>
+  </div>
+  
+  <script src="script.js" type="text/javascript"></script>
+</body>
+</html>
